@@ -5,5 +5,8 @@
  ## Cat Assignment
  ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/cat.html
 
-  ## Tribute Assignment
+ ## Tribute Assignment
  ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/tribute.html
+
+## Resume Assignment
+ ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/resume.html
