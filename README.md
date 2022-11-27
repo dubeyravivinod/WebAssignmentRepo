@@ -11,5 +11,5 @@
  ## Resume Assignment
  ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/resume.html
  
- ## Assginment Task 1
- ### https://dubeyravivinod.github.io/WebAssignmentRepo/form_assignment.html
+ ## Weekly Test Assessment
+ ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/form_assignment.html
