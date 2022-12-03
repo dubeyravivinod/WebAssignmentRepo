@@ -1,0 +1,61 @@
+/* start your css here */
+body {
+    margin: 10%;
+}
+.main-header {
+    font-family: 'Segoe UI';
+    font-size: 16px;
+}
+
+.main-header h1 {
+    text-align: center;
+}
+
+.article-section {
+    padding-top: 0%;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+
+ul {
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0%;
+    font-size: 200%;
+}
+
+.first {
+    background-color: rgb(101, 101, 101);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.secound {
+    background-color: rgb(63, 65, 65);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+.third {
+    background-color: rgb(0, 0, 0);
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: aliceblue;
+}
+
+footer {
+    padding: 60px;
+    font-style: italic;
+}
