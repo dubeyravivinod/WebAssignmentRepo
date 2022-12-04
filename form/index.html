@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <div class="account">
+        <h3>Account</h3>
+        <div class="input-container">
+            <i class="fa fa-user icon"></i>
+            <input class="input-field" type="text" placeholder="Full Name" name="username" />
+        </div>
+        <div class="input-container">
+            <i class="fa fa-envelope icon"></i>
+            <input class="input-field" type="text" placeholder="Email Address" name="Email" />
+        </div>
+        <div class="input-container">
+            <i class="fa fa-key icon"></i>
+            <input class="input-field" type="password" placeholder="Password" name="password" />
+        </div>
+    </div>
+    
+    <div class="input">
+    
+        <div class="input_data">
+            <h3 id="dob">Date Of Birthday</h3>
+            <div class="date">
+                <input type="number" placeholder="DD" style="width:58px; height: 40px;"/>
+                <input type="number" placeholder="MM" style="width:58px; height: 40px;"/>
+                <input type="number" placeholder="YYYY" style="width:58px; height: 40px;"/>
+            </div>
+        </div>
+        <div class="gen">
+            <h3 id="gen">Gender</h3>
+            <div class="gender">
+                <label id="m">Male<input type="radio" placeholder="Male" style="width:0; height: 0;"/></label>
+                <label id="f">Female<input type="radio" placeholder="Female" style="width:0; height: 0;"/></label>
+
+            </div>
+        </div>
+    </div>
+    <h3>Payment Details</h3>
+    <div class="input-container">        
+        <div class="cc">
+            <i class="fa fa-credit-card icon"></i>
+            <label>Credit Card</label>
+        </div>
+        <div class="pp">
+            <i class="fa fa-cc-paypal icon"></i>
+            <label>Paypal</label>
+        </div>
+    </div>
+    <div class="input-container">
+        <i class="fa fa-credit-card icon"></i>
+        <input class="input-field" type="text" name="cc" placeholder="Card Number"/>
+    </div>
+    <div class="input-container">
+        <i class="fa fa-user icon"></i> 
+        <input class="input-field" type="text" placeholder="Card CVV" style="width: 160px;height: 39px;">
+        <div class="mon">
+            <select class="mon-sel">
+                <option>01 Jan</option>
+                <option>02 Feb</option>
+                <option>03 Mar</option>
+                <option>04 Apr</option>
+            </select>
+        </div>
+        <div class="year">
+            <select class="year-sel">
+                <option>2015</option>
+                <option>2016</option>
+                <option>2017</option>
+                <option>2018</option>
+                <option>2019</option>
+                <option>2020</option>
+                <option>2021</option>
+                <option>2022</option>
+                <option>2023</option>
+        </select>
+        </div>
+    </div>
+    <footer>
+        <h3>Terms and Conditions</h3>
+        <p><input type="checkbox">
+            I accept the terms and conditions for signin  up to this service and hereby confirmed i have read the privacy policy.
+        </p>
+    </footer>
+</body>
+</html>
