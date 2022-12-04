@@ -16,3 +16,6 @@
 
  ## CSS Fundamental Assessment - 001
  ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-01/index.html
+
+## Rothko Painting
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-304-01/index.html
