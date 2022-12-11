@@ -50,3 +50,7 @@
 
 ## Form Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-304-02/index.html
+
+
+## Whickers Assignment
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-304-03/index.html
