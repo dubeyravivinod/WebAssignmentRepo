@@ -70,3 +70,6 @@
 
 ## Game Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-305-06/index.html
+
+## LinkedIn Assignment
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-306-06/index.html
