@@ -60,3 +60,6 @@
 
 ## 306-03 Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/306-03/index.html
+
+## 306-02 Assignment
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/306-02/index.html
