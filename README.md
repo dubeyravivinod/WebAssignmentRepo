@@ -40,3 +40,7 @@
 ## Calculator Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-305-02/index.html
 
+## CSS Flex Assignment
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/305-CSS-Flexbox/index.html
+
+
