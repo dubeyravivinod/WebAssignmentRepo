@@ -67,3 +67,6 @@
 
 ## Voot Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-304-04/index.html
+
+## Game Assignment
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-305-06/index.html
