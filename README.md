@@ -57,3 +57,6 @@
 
 ## 306-01 Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/306-01/index.html
+
+## 306-03 Assignment
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/306-03/index.html
