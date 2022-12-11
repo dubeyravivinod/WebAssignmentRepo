@@ -25,6 +25,4 @@
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-302.-1/CSS-302-01/index.html
 
 
-## Calculator Assignment
-### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-302.-1/CSS-307-01/index.html
 
