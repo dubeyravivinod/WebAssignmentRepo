@@ -1,1 +1,61 @@
-/* start your css here */
+start your css here
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.header {
+    background-color: black;
+    color: white;
+    padding: 10px 30px;
+}
+
+input {
+    padding: 15px;
+    width: 80%;
+    height: auto;
+}
+
+i {
+    padding: 10px 0px;
+}
+
+.policy-input {
+    text-align: start;
+    width: 20px;
+    height: 20px;
+}
+
+.terms {
+    font-size:large;
+    text-align: center;
+    padding-bottom: 5px;
+}
+
+.submit {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.submit-btn {
+    background-color: black;
+    font-family: sans-serif;
+    font-weight: bolder;
+    font-size: large;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    border: 2px solid white;
+    margin: 30px 0;
+}
