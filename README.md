@@ -54,3 +54,6 @@
 
 ## Whickers Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-304-03/index.html
+
+## 306-01 Assignment
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/306-01/index.html
