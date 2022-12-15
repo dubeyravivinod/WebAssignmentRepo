@@ -11,7 +11,7 @@
     background-color: #777;
     width: 100%;
     height: 850px;
-    background-image: url('/Airbnb/img/bg.jpg');
+    background-image: url('../img/bg.jpg');
     background-repeat: no-repeat;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -160,7 +160,7 @@
 
 .explore-section .ex-img {
     background-color: #484848;
-    background-image: url('/Airbnb/img/ex4.png');
+    background-image: url('../img/ex4.png');
     display: block;
     width: 100%;
     height: 400px;
