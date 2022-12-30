@@ -77,3 +77,14 @@
 
 ## Airbnb Clone
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/Airbnb/index.html
+
+
+# Advance Java Script Assignments
+## Code:: 401-01
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/401-01/index.html
+
+## Code:: 401-02
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/401-02/index.html
+
+## Code:: 401-03
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/401-03/index.html

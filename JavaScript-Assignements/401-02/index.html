@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>401-02</title>
+
+    <style>
+        body {
+            border: 2px solid black;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            flex-wrap: wrap;
+            overflow-y: scroll;
+            color: rgb(96, 89, 89);
+        }
+
+        li {
+            list-style: none;
+            border: 2px solid rgb(0, 0, 0);
+            padding: 10px 30px;
+            margin-bottom: 5px;
+            border-radius: 10px;
+        }
+
+        li:first-child {
+            background-color: blue;
+            color: white;
+        }
+
+        li:last-child {
+            background-color: #db7093;
+            color: white;
+        }
+
+        li:nth-child(9) {
+            background-color: #008000;
+            color: white;
+        }
+
+    </style>
+
+</head>
+<body>
+    <section>
+        <ul class="child">
+            <li>1st child</li>
+            <li>2nd child</li>
+            <li>3rd child</li>
+            <li>4th child</li>
+            <li>5th child</li>
+            <li>6th child</li>
+            <li>7th child</li>
+            <li>8th child</li>
+            <li>9th child</li>
+            <li>10th child</li>
+            <li>11th child</li>
+            <li>12th child</li>
+            <li>13th child</li>
+            <li>14th child</li>
+            <li>15th child</li>
+            <li>16th child</li>
+            <li>17th child</li>
+        </ul>
+    </section>
+
+    <script>
+        var items = document.getElementsByTagName("li");
+        console.log(items);
+        for(let i = 1; i < items.length; i++) {
+            if(i % 2 != 0) {
+                console.log(items[i]);
+                items[i].setAttribute("style", "background-color: #00ff00");
+            }
+        }
+
+    </script>
+</body>
+</html>

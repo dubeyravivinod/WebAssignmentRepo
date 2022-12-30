@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>401-01 Assginements</title>
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            width: 600px;
+            height: auto;
+            margin: 100px auto;
+        }
+
+        input {
+            border: 2px solid rgb(6, 193, 235);
+            padding: 10px;
+        }
+
+        p {
+            margin: 10px 30px;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Enter the text in Input</h1>
+    <br>
+    <input type="text" id="input-id" value="Geekster" oninput="display()"/>
+    <p id="wrote"></p>
+
+     <script>
+
+        function display() {
+            var x = document.getElementById("input-id").value;
+            document.getElementById("wrote").innerHTML = x;
+        }
+        var x = document.getElementById("input-id").value
+        document.getElementById("wrote").innerHTML = x;
+        
+    </script>
+</body>
+</html>

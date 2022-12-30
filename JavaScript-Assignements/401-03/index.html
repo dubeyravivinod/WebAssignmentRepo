@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>401-03</title>
+    <style>
+        body {
+          display: flex;
+          justify-content: center;
+          align-items: center;
+        }
+
+        .img-div {
+          position: relative;
+        }
+
+        .btn {
+          position: absolute;
+        }
+
+        .next {
+          margin-left: 880px;          
+        }
+
+        .prev, .next {
+          cursor: pointer;
+          padding: 16px;
+          font-weight: bold;
+          font-size: 40px;
+          color: white;
+          border-radius: 0 3px 3px 0;
+          transition: 0.6s ease;
+        }
+
+        .prev:hover, .next:hover {
+          background-color: rgba(0,0,0,0.8);
+        }
+
+    </style>
+  </head>
+  <body>
+    <div class="img-div">
+
+        <img
+        src="https://blog.geekster.in/wp-content/uploads/2021/09/Most-popular-full-stack-featured-image.png"
+        alt="image"
+        width="1000px"
+        height="auto"
+        id="slider-img"
+        />
+        
+    </div>
+    <div class="btn">
+      <a class="prev" onclick="nextImg()">❮</a>
+      <a class="next" onclick="prevImg()">❯</a>
+    </div>
+    <script>
+        var img=[];
+        img[0]="https://blog.geekster.in/wp-content/uploads/2021/09/Most-popular-full-stack-featured-image.png";
+        img[1]="https://blog.geekster.in/wp-content/uploads/2022/06/React-projects-featured-image-1024x512.png";
+        img[2]="https://blog.geekster.in/wp-content/uploads/2021/11/top-6-awesome-t-Jobs-in-Demand-2022-featured-Image.png";
+        
+        i=0;
+        let image = document.getElementById("slider-img");
+
+      function nextImg() {
+        if(i<img.length-1)
+            i++;
+        else
+            i=0;
+        image.src=img[i];
+      }
+
+
+      function prevImg(){
+        i--;
+        if(i==-1)
+            i=2;
+        image.src=img[i];
+      }
+
+      let j = 0;
+      setInterval(() => {
+        if(j < img.length-1) {
+            j++;
+        }
+        else{
+            j = 0;
+        }
+        image.src = img[j];
+        console.log(j)
+      }, 5000)
+
+    </script>
+  </body>
+</html>

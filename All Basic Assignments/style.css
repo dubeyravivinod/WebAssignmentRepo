@@ -1,0 +1,11 @@
+div ul{
+    display: flex;
+    flex-direction: row;
+    /* justify-content: spac/; */
+    justify-content: flex-end;
+}
+
+div ul li {
+    list-style: none;
+    margin-left: 50px;
+}
