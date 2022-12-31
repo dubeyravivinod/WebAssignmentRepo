@@ -1,0 +1,65 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Times New Roman';
+    height: 1000px;
+    width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+
+    background-image: url("https://images.unsplash.com/photo-1534796636912-3b95b3ab5986?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxleHBsb3JlLWZlZWR8MXx8fGVufDB8fHx8&w=1000&q=80");
+}
+
+.input-section {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 20px;
+    align-self: auto;
+}
+
+#input-mass, #selectPlanet {
+    padding: 10px;
+    margin-right: 15px;
+    border: 2px solid black;
+    font-size: large;
+    font-weight: bold;
+    border-radius: 10px;
+}
+
+#selectPlanet {
+    cursor: pointer;
+}
+
+.calculate {
+    padding: 15px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-bottom: 15px;
+    cursor: pointer;
+    text-align: center;
+    font-size: large;
+    background-color: aliceblue;
+}
+
+.calculate:hover {
+    cursor: pointer;
+    color: white;
+    background-color: black;
+    transition: 0.6s ease;
+}
+
+#result {
+    color: white;
+    display: inline;
+}
+
+#planet {
+    width: 800px;
+    height: auto;
+}
+
