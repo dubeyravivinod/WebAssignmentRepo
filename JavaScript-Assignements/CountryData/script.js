@@ -13,9 +13,12 @@ for(let i=0; i<countries_data.length; i++){
 }
 
 const clear = document.getElementById("graph")
+document.getElementById("populationButton").addEventListener("load", buttonOneClicked());
+
 function buttonOneClicked() {
     clear.innerHTML = " "
     graphTitle.innerText = "10 Most populated countries in the world"
+    // window.onload();
 
     for(let i=0; i<10; i++){
         const oneDiv = document.createElement("div")
