@@ -16,16 +16,49 @@
             display: block;
             margin: auto;
         }
+
+        #res {
+            display: flex;
+            flex-direction: column;
+        }
     </style>
 </head>
 <body>
     <h1>Geekster</h1>
     <button type="submit" onclick="clickHere()">click here</button>
-
+    <div id="res">
+    </div>
 
     <script>
+        let i = 0;
         function clickHere() {
+            var img = [];
+            img[0] = "https://www.bhaktiphotos.com/wp-content/uploads/2021/07/Sivan-hd-Images-1080p.jpg";
+            img[1] = "https://upload.wikimedia.org/wikipedia/commons/thumb/5/51/Pokebola-pokeball-png-0.png/769px-Pokebola-pokeball-png-0.png"
+
+            var createImage = document.createElement("img");
+            <!-- createImage.setAttribute("src", img); -->
+            var res = document.getElementById("res");
+            var Text = document.createElement("h2");
+            Text.innerText = "Image Element is Added"
+            console.log(createImage);
             
+            if(i < img.length-1) {
+                i ++;
+            }
+            else {
+                i = 0;
+            }
+            createImage.src = img[i];
+            createImage.style.width = "300px";
+            createImage.style.height = "auto";
+            createImage.style.display = "block";
+            res.style.alignItems = "center"
+            Text.style.color = "Green";
+            res.appendChild(Text);
+            res.appendChild(createImage);
+
+
         }
     </script>
 </body>
