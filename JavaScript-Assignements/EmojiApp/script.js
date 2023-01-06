@@ -1,3 +1,16 @@
+const store = document.getElementById("tableData");
+store.innerHTML = "";
+emojiList.map((ele) => {
+    
+    store.innerHTML += `
+    <tr>
+        <td id="EmojiIcon">${ele.emoji}</td>
+        <td id="EmojiTags">${ele.aliases}</td>
+        <td id="EmojiName">${ele.description}</td>
+    </tr>
+    `
+})
+
 function getInput() {
 
     const store = document.getElementById("tableData");
