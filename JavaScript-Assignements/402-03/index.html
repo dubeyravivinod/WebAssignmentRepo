@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>402-03</title>
+
+    <style>
+        li {
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h1>My Shopping List</h1>
+    <label for="input-items">
+        Enter a new item: <input type="text" name="items" id="items">
+        <button type="submit" onclick="AddItem()">Add Item</button>
+    </label>
+    <ul id="list">
+
+    </ul>
+
+    <script>
+        function AddItem() {
+            const inputItem = document.getElementById("items").value;
+            const itemList = document.getElementById("list");
+            if(inputItem != ""){
+                const li = document.createElement("li");
+                li.setAttribute('id', inputItem)
+                li.appendChild(document.createTextNode(inputItem));
+                const deleteButton = document.createElement("button");
+                deleteButton.type = "submit";
+                deleteButton.setAttribute('id', inputItem);
+                deleteButton.style.marginLeft = "50px";
+                deleteButton.innerHTML = "Delete";
+    
+                li.innerHTML = inputItem;
+                li.appendChild(deleteButton);
+                itemList.appendChild(li);
+            } 
+            else{
+                itemList.innerText = "No Input provided";
+            }
+
+            const buttons = document.getElementsByTagName("button");
+            const buttonPressed = e => {
+                const removeItems = document.getElementById("list");
+                const listItems = document.getElementsByTagName("li");
+                for(let item of listItems) {
+                    if(item.id == e.target.id) {
+                        removeItems.removeChild(item);
+                    }
+                }
+              }
+              
+              for (let button of buttons) {
+                button.addEventListener("click", buttonPressed);
+              }
+        }
+
+    </script>
+</body>
+</html>
