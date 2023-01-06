@@ -92,6 +92,9 @@
 ## Code:: 402-02
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/402-02/index.html
 
+## Code:: 402-03
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/402-03/index.html
+
 
 ## Code:: Planet Mass
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/PlanetMass/index.html
