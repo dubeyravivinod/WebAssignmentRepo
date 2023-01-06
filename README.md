@@ -102,3 +102,7 @@
 
 ## Code:: World Countries Data
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/CountryData/index.html
+
+
+## Code:: Emoji Search
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/EmojiApp\index.html
