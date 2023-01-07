@@ -109,3 +109,7 @@
 
 ## Code:: Emoji Search
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/EmojiApp/index.html
+
+
+## Code:: Drum Kit
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/Drum-Kit/index.html
