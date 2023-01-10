@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form Validation</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <h1>Validate Web Forms</h1>
+    <section class="form">
+        <label for="fname">First Name 
+            <p><input id="fname" type="text" placeholder="First Name"></p>
+            <p class="error" id="fnameError"></p>
+        </label>
+        <label for="lname">Last Name 
+            <p><input id="lname" type="text" placeholder="Last Name"></p>
+            <p class="error" id="lnameError"></p>
+        </label>
+        <label for="email">Email 
+            <p><input id="email" type="text" placeholder="example@gmail.com"></p>
+            <p class="error" id="emailError"></p>
+        </label>
+        <label for="password">Password 
+            <p><input id="password" type="password" placeholder="********"></p>
+            <p class="error" id="passwordError"></p>
+        </label>
+        <label for="mobile">Contact Number 
+            <p><input id="contact" type="text" placeholder="1234567890"></p>
+            <p class="error" id="contactError"></p>
+        </label>
+        <label for="bio">You Bio 
+            <p><textarea id="bio" rows="5" cols="50"></textarea></p>
+            <p class="error" id="bioError"></p>
+        </label>
+        <button id="submit" onclick="validateInputs()" type="submit">Submit</button>
+    </section>
+</body>
+</html>
