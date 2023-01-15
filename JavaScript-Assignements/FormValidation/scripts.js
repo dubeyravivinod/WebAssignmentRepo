@@ -62,3 +62,7 @@ function validateInputs() {
         document.getElementById("bio").style.border = "2px solid green";
     }
 }
+
+window.addEventListener("load", function() {
+    console.log("I am loaded")
+})
