@@ -4,35 +4,86 @@
     box-sizing: border-box;
 }
 
-
 .header-section {
-    position: relative;
-    height: 100vh;
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-
-.header-section::before {
-    background: url("https://gumlet.assettype.com/swarajya%2F2017-09%2F1580e533-fe9d-4cea-a163-d4c082d5439c%2F2ce77def-dcbe-471e-a38a-a51785f8554f.jpg?rect=0%2C0%2C600%2C338&w=1200&auto=format%2Ccompress&ogImage=true") no-repeat center center fixed; 
+    background:url("https://p4.wallpaperbetter.com/wallpaper/370/608/909/background-earth-continents-world-map-hd-wallpaper-preview.jpg") ;
+    background-repeat: no-repeat;
     background-size: cover;
-    position: absolute;
+    background-position: center;
     width: 100%;
-    height: 70%;
-    opacity: 0.7;
+    height: 600px;
+    opacity: 0.9;
 }
 
-.header-section {
+.header {
     display: flex;
-    align-items: center;
+    flex-direction: column;
     justify-content: center;
+    align-items: center;
+    color: white;
+    width: 100%;
+    height: 600px;
 }
 
-h1 {
-    position: relative;
-    color: #ffffff;  
-    font-size: 14rem;
-    line-height: 0.9;
+.header h1 {
+    font-size: 62px;
+}
+
+.header #totalCountries {
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+#search {
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+#search #input {
+    padding: 10px;
+    width: 500px;
+    border-radius: 25px;
+}
+
+#search #glass {
+    padding: 10px;
+    cursor: pointer;
+}
+
+
+.btn {
+    width: 350px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.btn h3 {
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: rgb(116, 115, 118);
+    text-transform: uppercase;
+    font-size: 10px;
+    cursor: pointer;
+}
+
+.result {
+    margin: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
-  }
+}
+
+.results {
+    width: 200px;
+    height: 200px;
+    background-image: url(https://static.vecteezy.com/system/resources/thumbnails/004/320/551/small/silhouette-a-globe-cute-black-world-map-icon-free-vector.jpg);
+    margin: 20px;
+}
+
+
+
+
