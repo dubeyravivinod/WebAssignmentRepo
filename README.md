@@ -118,6 +118,3 @@
 ## Code:: Form Validation
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/FormValidation/index.html
 
-
-## Code:: World Countries Data Visualization
-### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/Data-Visulaization/index.html
