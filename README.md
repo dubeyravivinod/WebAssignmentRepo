@@ -1,15 +1,3 @@
- ## Tribute Assignment
- ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/tribute.html
-
- ## Resume Assignment
- ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/resume.html
- 
- ## Weekly Test Assessment
- ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/form_assignment.html
-
- ## CSS Fundamental Assessment - 001
- ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-01/index.html
-
 ## Rothko Painting
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-304-01/index.html
 
@@ -118,3 +106,6 @@
 ## Code:: Form Validation
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/FormValidation/index.html
 
+
+## Code:: Data Visulaization
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/Data-Visulaization/index.html
