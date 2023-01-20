@@ -109,3 +109,6 @@
 
 ## Code:: Data Visulaization
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/Data-Visulaization/index.html
+
+## Code:: Dashboard
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/Vanilla-LeaderBoard/index.html
