@@ -12,25 +12,8 @@
 ## Coffee Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-302.-1/CSS-302-01/index.html
 
-
-## Calculator Assignment
-### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-307-01/index.html
-
-
-## Color CSS Assignment
-### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-3/index.html
-
-
 ## Cat CSS Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-3-Cat/index.html
-
-
-## Calculator Assignment
-### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-305-02/index.html
-
-## CSS Flex Assignment
-### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/305-CSS-Flexbox/index.html
-
 
 ## Flipkart Assignment
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/CSS-305-04/index.html
