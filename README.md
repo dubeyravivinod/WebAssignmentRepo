@@ -99,3 +99,8 @@
 
 ## Code:: Github inder
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/GithubFinder/index.html
+
+
+## Code:: Dictonary Application
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/DictonaryApp/index.html
+
