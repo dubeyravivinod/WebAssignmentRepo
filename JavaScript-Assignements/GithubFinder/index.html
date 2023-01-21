@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Github Finder</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .main-header {
+            display: flex;
+            justify-content: space-between;
+            background-color: #1b1d1d;
+        }
+        .main, .opt {
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+            margin: 10px 40px;
+            color: white;
+            margin-right: 40px;
+        }
+
+        .opt h4 {
+            text-transform: uppercase;
+            margin-right: 50px;
+        }
+
+        body {
+            background-color: #212121;
+        }
+
+        .section-2 {
+            margin: 30px 30px;
+        }
+
+        h6 {
+            color: white;
+            font-size: 18px;
+        }
+
+        button {
+            padding: 20px;
+            border: 1px;
+        }
+
+        .section-2 div {
+            display: flex;
+            justify-content: flex-start;
+            gap: 20%;
+            margin: 10px;
+            color: white;
+        }
+
+        label {
+            text-transform: uppercase;
+        }
+
+        input {
+            padding: 10px;
+            width: 40%;
+            border-radius: 10px;
+        }
+
+        img {
+            width: 75px;
+            height: auto;
+            border-radius: 50%;
+        }
+
+        .profileContainer {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            flex-wrap: wrap;
+        }
+
+        .profileContainer .innerDiv {
+            background-color: #1b1d1d;
+            width: 300px;
+            height: auto;
+            box-shadow: 2px 2px 2px black;
+            padding: 20px
+        }
+
+        .profileContainer .innerDiv .info {
+            display: flex;
+            flex-direction: column;;
+        }
+
+        a:link {
+            text-decoration: none;
+            color: #9b9a9a;
+            text-transform: uppercase;
+            font-size: 14px;
+        }
+
+    </style>
+    
+    <script src="scripts.js" defer></script>
+<body> 
+    <section class="main-header">
+        <div class="main">
+            <i class="fa fa-github" style="font-size:36px"></i>
+            <h3>Github Finder</h3>
+        </div>
+        <div class="opt">
+            <h4>Home</h4>
+            <h4>About</h4>
+        </div>
+    </section>
+
+    <section class="section-2">
+        <div class="searchbox">
+            <h6>Let's stalk someone on Github</h6>
+            <label type="submit" onclick="clearFunc()">clear</label>
+        </div>
+        <input id="searchBox" type="text" name="username" value="username">
+        <label id="go" onclick="fetch_info()">Go</label>
+
+        <div id="profileContainer" class="profileContainer">
+        </div>
+    </section>
+
+</body>
+</html>
