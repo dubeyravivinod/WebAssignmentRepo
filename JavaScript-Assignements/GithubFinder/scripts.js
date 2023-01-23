@@ -8,6 +8,7 @@ async function fetch_info() {
     console.log(data);
 
     data.map((ele)=> {
+        console.log(ele);
         const username = ele.login;
         const avatar = ele.avatar_url;
         const profile = ele.profile;
