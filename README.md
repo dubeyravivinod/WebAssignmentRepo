@@ -98,3 +98,10 @@
 ## Code:: Meal Finder Application
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/MealFinder/index.html
 
+
+## Code:: Quotes Application
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/QuotesApp/index.html
+
+
+## Code:: Weather Application
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/weather-main/index.html

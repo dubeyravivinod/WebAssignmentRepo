@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotes Application</title>
+    <script defer src="scripts.js"></script>
+    <style>
+
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        #result {
+            text-align: center;
+            border: 5px solid #ffcdc2;
+            padding: 30px;
+            background-color: #ffcdc2;
+            border-radius: 20px;
+            box-shadow: 4px 5px 9px 3px #e81412
+        }
+        body {
+            background: linear-gradient(to top, #ffaea1 , #ffd9c0);
+            background-repeat: no-repeat;
+            width: 100%;
+            height: 1024px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        #quotes {
+            width: 900px;
+            font-style: normal;
+            font-weight: 500;
+            color: rgb(51, 51, 51);
+            size: 60px;
+            line-height: 75.6px;
+        }
+
+        #quote {
+            font-size: 24px;
+        }
+
+        p {
+            font-family: monospace;
+        }
+
+        hr {
+            height: 5px;
+            background-color: black;
+        }
+
+        #next {
+            padding: 10px;
+            width: 200px;
+            font-size: large;
+            border: 2px solid black;
+            background: linear-gradient(to right, #e81412, white);
+        }
+
+        img {
+            width: 60px;
+            height: auto;
+        }
+
+        #btn {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+    </style>
+</head>
+<body>
+    <div id="result">
+        <div id="quotes">
+            <h1 id="quote">This is Demo</h1>
+        </div>
+        <hr>
+        <div id="btn">
+            <img src="https://e7.pngegg.com/pngimages/617/28/png-clipart-twitter-logo-blue-sky-wing-beak-font-twitter-blue-social-media.png" alt="twitter" width="100px">
+            <button id="next" onclick="random()" >Next</button>
+        </div>
+    </div>
+</body>
+</html>
