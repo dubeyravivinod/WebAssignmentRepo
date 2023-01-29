@@ -105,3 +105,8 @@
 
 ## Code:: Weather Application
 ### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/weather-main/index.html
+
+
+
+## Code:: News Application
+### Link ---> https://dubeyravivinod.github.io/WebAssignmentRepo/JavaScript-Assignements/News/index.html

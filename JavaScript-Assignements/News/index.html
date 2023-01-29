@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Global New | By DRV</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    
+    <script src="scripts.js" defer></script>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <section class="header-section">
+       <nav class="navbar">
+            <div class="dropdown">
+                <button class="dropbtn">Menu
+                    <i class="fa fa-caret-down"></i>
+                </button>
+                <div class="dropdown-content">
+                        <a id="all" onclick="allNews()">All News</a>
+                        <a id="business" onclick="businessNews()">Business</a>
+                        <a id="sports" onclick="sportNews()">Sports</a>
+                        <a id="politics" onclick="politicsNews()">Politics</a>
+                        <a id="tech" onclick="techNews()">Technology</a>
+                        <a id="entertainment" onclick="entertainmentNews()">Entertainment</a>
+                        <a id="science" onclick="scienceNews()">Science</a>
+                        <a id="health" onclick="healthNews()">Health</a>
+                </div>
+            </div>
+            <div class="logo">
+                <img src="logo.jpg" alt="logo" width="200px">
+            </div>
+            <div class="searchbar">
+                <abbr title="Categories - Policits, Science, Health, etc."><input type="text" name="searchbox" class="search" id="searchCategory" placeholder="Category Search"></abbr> 
+                <abbr title="in, us, pk, du, af, au, etc."><input type="text" name="searchbox" class="search" id="searchCountry" placeholder="Country Code"></abbr>
+                <i class="fa fa-search" onclick="search()"></i>
+            </div>
+       </nav>
+
+       <div id="result-section">
+            <div id="result">
+            </div>
+       </div>
+
+    </section>
+</body>
+</html>
