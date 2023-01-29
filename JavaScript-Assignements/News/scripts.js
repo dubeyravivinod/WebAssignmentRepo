@@ -10,6 +10,7 @@ async function allNews() {
     const url = `https://newsapi.org/v2/top-headlines?country=in&apiKey=${api_key}`
     const response = await fetch(url)
     const data = await response.json()
+    console.log(data);
     const json_data = data.articles
     for (const element of json_data) {
         if(element.urlToImage != null && element.description != null && element.title != null && element.author != null) {
@@ -36,6 +37,7 @@ async function businessNews() {
     const response = await fetch(url)
     const json_data = await response.json()
     const data = json_data.articles
+    console.log(data);
     for (const element of data) {
         if(element.urlToImage != null && element.description != null && element.title != null && element.author != null) {
             result_container.innerHTML += `
